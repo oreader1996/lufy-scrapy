@@ -8,7 +8,7 @@ from scrapy import signals
 from anole import UserAgent
 
 
-# 自定义随机生成UserAgent下载中间件
+# 随机生成UserAgent下载中间件
 class CustomUserAgentDownloadMiddleware:
     def __init__(self):
         self.ua = UserAgent()
